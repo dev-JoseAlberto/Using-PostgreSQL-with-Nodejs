@@ -1,0 +1,23 @@
+{
+  "name": "using-postgresql-with-nodejs",
+  "version": "1.0.0",
+  "description": "Integrating Node.js Efficiently with Relational Database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-JoseAlberto/Using-PostgreSQL-with-Node.js.git"
+  },
+  "author": "Jose Alberto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dev-JoseAlberto/Using-PostgreSQL-with-Node.js/issues"
+  },
+  "homepage": "https://github.com/dev-JoseAlberto/Using-PostgreSQL-with-Node.js#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "pg": "^8.7.3"
+  }
+}
