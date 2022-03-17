@@ -3,7 +3,7 @@ const client = new Client({
   host : "localhost",
   user: "postgress",
   password:"",
-  port:5432,
+  port:,
   database:"videos"
 });
 await client.connect()
