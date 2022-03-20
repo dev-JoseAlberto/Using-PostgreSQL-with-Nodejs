@@ -1,12 +1,10 @@
-const { Client } = require('pg')
-const client = new Client({
-  host : "localhost",
-  user: "postgress",
+const pgp = require('pg-promise')();
+const db = pgp ({
+  user: "postgres",
   password:"",
+  host : "localhost",
   port:,
   database:"videos"
 });
-await client.connect()
-const res = await client.query('SELECT $1::text as message', ['Hello world!'])
-console.log(res.rows[0].message)
-await client.end()
+
+module.exports = db;
